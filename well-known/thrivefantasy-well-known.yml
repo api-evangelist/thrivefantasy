@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of thrivefantasy hosts
+note: No .well-known discovery documents and no llms.txt are published. www.thrivefantasy.com
+  serves a legacy Unbounce marketing page (HTTP 200); thrivefantasy.com, api.thrivefantasy.com,
+  and app.thrivefantasy.com return 403 (Cloudflare) and docs.thrivefantasy.com does not
+  resolve. The company ceased operations in early 2024.
+probes:
+- host: www.thrivefantasy.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: www.thrivefantasy.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: www.thrivefantasy.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- host: www.thrivefantasy.com
+  path: /.well-known/api-catalog
+  status: 404
+  file: null
+- host: www.thrivefantasy.com
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: www.thrivefantasy.com
+  path: /llms.txt
+  status: 404
+  file: null

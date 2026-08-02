@@ -1,0 +1,21 @@
+# ThriveFantasy
+
+> ThriveFantasy was a New York City daily fantasy sports platform focused on player-prop
+> pick'em contests across NFL, NBA, MLB, esports, and other leagues, backed by Bullpen
+> Capital. The company ceased operations in early 2024 after a failed funding round and a
+> player-withdrawal crisis. It never published a public API, developer portal, or SDKs;
+> its marketing site remains online.
+
+## Company
+
+- [Website](https://www.thrivefantasy.com): Legacy marketing site (still serving)
+- [Terms and Conditions](https://www.thrivefantasy.com/terms-and-conditions/)
+- [Privacy Policy](https://www.thrivefantasy.com/privacy-policy/)
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/thrivefantasy/refs/heads/main/apis.yml): API Evangelist network profile for ThriveFantasy
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/thrivefantasy/refs/heads/main/security/thrivefantasy-domain-security.yml): TLS/DNS posture of thrivefantasy.com
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/thrivefantasy/refs/heads/main/well-known/thrivefantasy-well-known.yml): /.well-known discovery surface (none published)
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + repo artifacts -->
