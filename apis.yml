@@ -29,6 +29,9 @@ description: ThriveFantasy was a New York City daily fantasy sports platform foc
   round and a player-withdrawal crisis. It never published a public API, developer
   portal, or SDKs; its legacy marketing site remains online.
 url: https://raw.githubusercontent.com/api-evangelist/thrivefantasy/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It never published a public API, developer portal, or SDKs; its legacy marketing site remains online."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
