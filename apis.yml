@@ -23,15 +23,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thrivefantasy.png
 name: ThriveFantasy
-description: ThriveFantasy was a New York City daily fantasy sports platform focused on
-  player-prop pick'em contests across NFL, NBA, MLB, esports, and other leagues, backed
-  by Bullpen Capital. The company ceased operations in early 2024 after a failed funding
-  round and a player-withdrawal crisis. It never published a public API, developer
-  portal, or SDKs; its legacy marketing site remains online.
+description: ThriveFantasy was a New York City daily fantasy sports platform focused on player-prop pick'em
+  contests across NFL, NBA, MLB, esports, and other leagues, backed by Bullpen Capital. The company ceased
+  operations in early 2024 after a failed funding round and a player-withdrawal crisis. It never published
+  a public API, developer portal, or SDKs; its legacy marketing site remains online.
 url: https://raw.githubusercontent.com/api-evangelist/thrivefantasy/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
-x-api-posture-note: "It never published a public API, developer portal, or SDKs; its legacy marketing site remains online."
+x-api-posture-note: It never published a public API, developer portal, or SDKs; its legacy marketing site
+  remains online.
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -40,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Fantasy Sports
@@ -77,3 +77,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 3
   pass: local-v1
+x-status: defunct
